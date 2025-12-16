@@ -1692,11 +1692,11 @@ input, select, textarea {
 		max-width: 24em;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
 			background-color: #43bff0;
 			color: #fff !important;
 		}
